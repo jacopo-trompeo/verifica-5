@@ -1,8 +1,8 @@
-Nome:
-Cognome:
+Nome: Raul
+Cognome: Bercea
 
-Fila:
-Postazione:
+Fila: 2
+Postazione: 11
 
 
 # VERIFICA: Fondamenti di version control
@@ -53,7 +53,7 @@ Nota: qualcuno fra i colleghi potrebbero aver effettuato delle modifiche sul bra
 
 - effettuare una commit ed una push con il file di testo compilato
 
-Nota: assicurati che la push abbia avuto esito positivo, poichè la valutazione potrà essere fatta solo se il file è correttamente riportato sul repository remoto
+Nota:git assicurati che la push abbia avuto esito positivo, poichè la valutazione potrà essere fatta solo se il file è correttamente riportato sul repository remoto
 
 ## Esercizio 4 (3 punti)
 - lavora sul branch 'test'
