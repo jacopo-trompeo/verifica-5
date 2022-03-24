@@ -2,7 +2,7 @@ Nome: Jacopo
 Cognome: Trompeo
 
 Fila: 5
-Postazione: 12
+Postazione: 3
 
 
 # VERIFICA: Fondamenti di version control
