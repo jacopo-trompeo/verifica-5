@@ -1,0 +1,26 @@
+Domande Andrea Galantino
+Domanda 1:
+        a) Cosa fa il comando 'git reset HEAD~1'?
+                git reset HEAD~1 cancella l'ultimo commit e ti fa tornare a quello precedente
+        b) Spiega come funziona la staging area
+                La staging area è la zona temporanea con cui git prepara una commit.
+
+Domanda 2:
+        a)Descrivi il comando 'git log'
+                'git log' elenca i commit raggiungibili seguendo i link principali dai commit forniti,
+                ma esclude i commit raggiungibili da quelli forniti con un ^ davanti a loro. 
+        b)Spiegare come funziona la history
+                La history ti mostra grafico di snapshot dell'intero repository, in cui vengono rappresentati passo per passo tutte le modifiche effettuate dalle persone che ci lavorano sopra
+        c)Cosa sono i branch
+                I branch vengono utilizzati in Git per l'implementazione di funzionalità sviluppate in modo indipendente l'una dall'altra ma a partire dalla medesima radice.
+                Strutturalmente il ramo predefinito di un progetto è il master che viene generato quando si crea un repository;
+                sarà poi possibile ricorrere ad ulteriori diramazioni dedicate a features differenti per poi inserirle nel master, tramite la procedura di merging.
+        d)Che cos'è la HEAD
+                La HEAD è un puntatore speciale che punta al ramo locale in cui ti trovi attualmente.
+
+Domanda 3:
+        a)Cos'è un repository remoto?
+                I repository remoti sono versioni di progetti che sono ospitati in Internet o su una rete.
+        b)Descrivi cosa fa il comando 'git push'
+                'git push' aggiorna i riferimenti remoti insieme agli oggetti associati
+                Aggiorna i riferimenti remoti utilizzando i riferimenti locali, inviando gli oggetti necessari per completare i riferimenti forniti.
