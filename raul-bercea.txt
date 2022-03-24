@@ -21,3 +21,7 @@ repository, egli punta ad un branch che a sua volta punta ad un commit
 Un repository remoto serve per permettere a piu persone di lavorare su una stessa
 code base, git permette di accedere ad una repository remota dalla propria macchina
 personale.
+
+Il comando fetch riceve i metadati dell branch remoto al quale sto facendo il checkout
+usando successivamente pull i file che presentano differenze o i file nuovi verranno
+scaricati in locale.
