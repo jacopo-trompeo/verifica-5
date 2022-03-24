@@ -1,8 +1,8 @@
-Nome:
-Cognome:
+Nome: Joele
+Cognome: Melchiorre
 
-Fila:
-Postazione:
+Fila: 5
+Postazione: 1
 
 
 # VERIFICA: Fondamenti di version control
