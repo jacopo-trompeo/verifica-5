@@ -2,7 +2,7 @@ Nome: Andrea
 Cognome: Galantino
 
 Fila: 5
-Postazione:
+Postazione: Colonna 5
 
 
 # VERIFICA: Fondamenti di version control
