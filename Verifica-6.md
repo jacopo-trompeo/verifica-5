@@ -22,7 +22,7 @@ Partendo dal branch 'main':
 - effettuare un commit delle modifiche
 
 Partendo dal branch 'develop':
-- creare un nuovo branch 'feature/capitolo-6'
+- creare un nuovo branch 'feature/capitolo-6' 
 - effettuare un checkout del nuovo branch
 - creare un nuovo file chiamato 'documento.txt' ed inserire il seguente testo:
 
