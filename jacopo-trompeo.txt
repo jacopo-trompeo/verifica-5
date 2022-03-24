@@ -1,0 +1,26 @@
+1. Cosa fa il comando 'git restore --staged <file>'? Spiega come funziona la staging area
+
+Il comando 'git restore --staged <file>' rimuove un file dalla staging area, senza però rimuovere tutti i cambiamenti
+effettuati su quel file (a differenza del comportamento di default di restore che ripristina il file all'ultimo cambiamento
+committato).
+La staging area è la zona temporanea che contiene i file su cui dovrà essere eseguito in seguito un commit (git commit).
+Per aggiungere file alla staging area usiamo il comando git add, mentre per vedere le differenze tra staging area e working 
+directory usiamo git diff.
+
+
+2. Descrivi il comando 'git merge <branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+
+Il comando 'git merge <branch>' serve per incorporare i cambiamenti commitatti di un branch all'interno del branch nel quale ci si 
+trova. Esistono due principali tipi di merge: fast forward e 3 way.
+Il fast forward si verifica quando tra il branch corrente e il branch target c'è un path 'lineare', in questo caso git integra le commit history
+del branch corrente con quello di target. Quando questo non si verifica, git esegue il 3 way merge.
+La history è un grafo contenente tutti gli snaptshot delle varie commit di una repository. Può essere visualizzata con 'git log'.
+La HEAD è ciò che punta all'ultimo commit nel checkout branch attuale.
+
+
+3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git pull'
+
+Una remote repository è una versione del progetto su cui si sta lavorando hostata su un server su cui tutti i membri di un team possono collaborare.
+E' possibile scaricare i contenuti in remoto (pull), e mandare contenuto dalla repository locale alla repository remota (push).
+Il comando pull serve per eseguire il fetch (git fetch, scarica i metadati) e scaricare i contenuti da una repository remota in modo da 
+aggiornare la repository locale per far siche sia allineta con il contenuto scaricato.
