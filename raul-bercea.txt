@@ -1,0 +1,23 @@
+1. Cosa fa il comando 'git add <file>'? Spiega come funziona la staging area
+
+Il comando add serve per aggiungere i file che non sono stati tracciati alla staging area.
+La staging area serve per preparare i file per il commit indicando a git quali saranno
+i file che saranno aggiunti al branch.
+
+2. Descrivi il comando 'git branch <nuovo branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+Il comando git branch <nuovo branch> serve per creare un nuovo branch a partire dal branch attuale (quindi se sono su develop
+e faccio un nuovo branch di feature esso verra staccato dal branch di develop).
+
+La history di git contiene al suo interno un grafico di diversi "snapshot" in ordine cronologico della repository, 
+questi snapshot sono i commit.
+
+Un branch e un "eitchetta" o "pointer" che punta ad un specifico commit effettuato
+
+il head e un indicatore che rappresenta il nostro punto di vista all interno del
+repository, egli punta ad un branch che a sua volta punta ad un commit
+
+3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git fetch'
+
+Un repository remoto serve per permettere a piu persone di lavorare su una stessa
+code base, git permette di accedere ad una repository remota dalla propria macchina
+personale.
