@@ -3,6 +3,7 @@ Cognome: Bovolenta
 
 Fila: 5
 Postazione: 4
+Verifica: 4
 
 
 # VERIFICA: Fondamenti di version control
