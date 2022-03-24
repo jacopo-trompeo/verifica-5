@@ -2,8 +2,8 @@ Nome: Raul
 Cognome: Bercea
 
 Fila: 2
+<<<<<<< HEAD
 Postazione: 11
-
 
 # VERIFICA: Fondamenti di version control
 ### Variante 2
